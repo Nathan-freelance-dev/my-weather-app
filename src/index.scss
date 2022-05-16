@@ -1,0 +1,19 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    .app_container.cold {
+        background: url('./assets/images/cold-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 138.3mm;
+        width: 3.7in;
+        border-radius: 20px;
+    }
+}
